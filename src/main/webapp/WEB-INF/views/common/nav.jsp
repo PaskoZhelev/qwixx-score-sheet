@@ -13,7 +13,7 @@
           <nav class="topbar-navigation">
             <ul class="menu">
 
-              <li class="menu-item active">
+              <li class="menu-item">
                 <a class="menu-link" href="/">
                   <span class="title">Qwixx</span>
                 </a>
