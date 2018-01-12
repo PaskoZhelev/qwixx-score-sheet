@@ -1,3 +1,11 @@
 .header .buttons {
   right: 0;
 }
+
+.btn-warning:active,
+.btn-warning.active,
+.show>.btn-warning.dropdown-toggle {
+    background-color: #dc8424;
+    border-color: #dc8424;
+    color: #fff
+}

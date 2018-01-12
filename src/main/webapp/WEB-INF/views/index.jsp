@@ -29,10 +29,10 @@
 				</div>
 				
 				<div class="col-sm-6">
-				<button class="btn btn-round btn-lg btn-danger">
-				  <div class="flexbox">
-					<span class="fs-20 fw-400">Score with Characters</span>
-				  </div>		
+				<button class="btn btn-round btn-lg btn-danger">				
+				  <div class="flexbox">			  
+					<span class="fs-20 fw-400">Score with Characters</span>					
+				  </div>					
 				</button>
 				</div>
 			</div>
@@ -51,5 +51,25 @@
        </div>
           </div>
 	    </div>
+
+	
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="text-center text-sm-left">Qwixx Score Sheet - Created by Pasko</a></p>
+            </div>
+
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- END Footer -->
+
+
+    </main>
 
 <%@ include file="common/footer.jsp" %>

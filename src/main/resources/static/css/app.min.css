@@ -5324,8 +5324,8 @@ progress {
 .btn-success:active,
 .btn-success.active,
 .show>.btn-success.dropdown-toggle {
-    background-color: #14b56f;
-    border-color: #14b56f;
+    background-color: #139c61;
+    border-color: #139c61;
     color: #fff
 }
 .btn-info {
@@ -5351,8 +5351,8 @@ progress {
 .btn-info:active,
 .btn-info.active,
 .show>.btn-info.dropdown-toggle {
-    background-color: #2ba3f6;
-    border-color: #2ba3f6;
+    background-color: #1d88d2;
+    border-color: #1d88d2;
     color: #fff
 }
 .btn-warning {
@@ -5378,8 +5378,8 @@ progress {
 .btn-warning:active,
 .btn-warning.active,
 .show>.btn-warning.dropdown-toggle {
-    background-color: #f99a32;
-    border-color: #f99a32;
+    background-color: #dc8424;
+    border-color: #dc8424;
     color: #fff
 }
 .btn-danger {
@@ -5405,8 +5405,8 @@ progress {
 .btn-danger:active,
 .btn-danger.active,
 .show>.btn-danger.dropdown-toggle {
-    background-color: #f84f4f;
-    border-color: #f84f4f;
+    background-color: #d63535;
+    border-color: #d63535;
     color: #fff
 }
 .btn-secondary {

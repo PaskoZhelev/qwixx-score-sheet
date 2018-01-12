@@ -6,8 +6,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="TheAdmin - Responsive admin and web application ui kit">
-    <meta name="keywords" content="admin, dashboard, web app, sass, ui kit, ui framework, bootstrap">
+    <meta name="description" content="Qwixx Score Sheet">
+    <meta name="keywords" content="qwixx, score, sheet, game, board">
 
     <title>Qwixx - Score Sheet</title>
 
@@ -16,7 +16,7 @@
     <link href="css/core.min.css" rel="stylesheet">
     <link href="css/app.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-	<link href="css/style.min.css" rel="stylesheet">
+
 
   </head>
 	<body class="topbar-unfix">
