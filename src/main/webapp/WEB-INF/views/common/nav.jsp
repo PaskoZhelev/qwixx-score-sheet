@@ -26,7 +26,7 @@
               </li>
 
               <li class="menu-item">
-                <a class="menu-link" href="/score-characters">
+                <a class="menu-link" href="/score-character">
                   <span class="title">Score with Characters</span>
                 </a>
               </li>

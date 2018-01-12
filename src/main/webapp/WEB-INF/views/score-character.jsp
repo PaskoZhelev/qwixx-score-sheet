@@ -16,18 +16,16 @@
 					<h4 class="card-title card-title-bold">Simple Game</h4>
 					<div class="card-body">
 						<div class="form-group">
-							<form:form method="POST" action="/score-simple"
+							<form:form method="POST" action="/score-character"
 								modelAttribute="game">
 								<table>
-									<tr>
-										
+									<tr>									
 										<form:select class="form-control" path="players">
 											<form:option selected="2" value="2">2</form:option>
 											<form:option value="3">3</form:option>
 											<form:option value="4">4</form:option>
 											<form:option value="5">5</form:option>
-										</form:select>
-																			
+										</form:select>																			
 									</tr>
 									<br />
 									<tr>

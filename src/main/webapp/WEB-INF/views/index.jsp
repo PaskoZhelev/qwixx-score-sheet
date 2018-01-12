@@ -23,7 +23,7 @@
 				<div class="col-sm-6">
 				<button class="btn btn-round btn-lg btn-warning">
 				  <div class="flexbox">					
-					<span class="fs-20 fw-500">Score - Simple Game</span>
+					<span class="fs-20 fw-400">Score - Simple Game</span>
 				  </div>
 				</button>
 				</div>
@@ -31,7 +31,7 @@
 				<div class="col-sm-6">
 				<button class="btn btn-round btn-lg btn-danger">
 				  <div class="flexbox">
-					<span class="fs-20 fw-500">Score with Characters</span>
+					<span class="fs-20 fw-400">Score with Characters</span>
 				  </div>		
 				</button>
 				</div>
