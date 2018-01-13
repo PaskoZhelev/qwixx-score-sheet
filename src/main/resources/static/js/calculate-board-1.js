@@ -3,14 +3,16 @@ $(document).ready(function(){
     		var yellowCrosses = 0;
     		var greenCrosses = 0;
     		var blueCrosses = 0;
+    		var mistakesCrosses = 0;
     		
-    		var redResult = 0;
-    		var yellowResult = 0;
-    		var greenResult = 0;
-    		var blueResult = 0;
     		
     		var calculateResults = function() {
+    		      $("#redCategory1").val(result(redCrosses));
+    		      $("#yellowCategory1").val(result(yellowCrosses));
+    		      $("#greenCategory1").val(result(greenCrosses));
+    		      $("#blueCategory1").val(result(blueCrosses));
     		      
+    		      $("#mistakesCategory1").val(resultMistakes(mistakesCrosses));
     		   };
     		   
     		  var result = function(crosses){   			  
@@ -43,6 +45,10 @@ $(document).ready(function(){
     			  default:
     				  return 0;
     			  }
+    		  }
+    		  
+    		  var resultMistakes = function(mistCrosses){   			  
+    			  return mistCrosses * 5;
     		  }
     		
     		$(".red-btn").click(function(){
@@ -84,6 +90,20 @@ $(document).ready(function(){
     			}
     			
     			calculateResults();
+    		});
+    		$(".mistakes-btn").click(function(){
+    			if ( ! $( this ).hasClass("active") ){
+    				mistakesCrosses++;
+    			}
+    			else {
+    				mistakesCrosses--;
+    			}
+    			
+    			calculateResults();
+    		});
+    		$(".calculateTotal1").click(function(){
+    			$("#totalCategory1").val(result(redCrosses) + result(yellowCrosses)
+    					+ result(greenCrosses) + result(blueCrosses) - resultMistakes(mistakesCrosses));
     		});
 
     	});
