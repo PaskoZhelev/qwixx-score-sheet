@@ -79,7 +79,7 @@ $(document).ready(function(){
     				greenCrosses2--;
     			}
     			
-    			calculateResults();
+    			calculateResults2();
     		});
     		$(".blue-btn2").click(function(){
     			if ( ! $( this ).hasClass("active") ){
