@@ -12,7 +12,7 @@
 		<div class="col-sm-12">
 				<div class="card text-center">
 					<h4 class="card-title card-title-bold">Game With Characters Score Sheet - 
-					<span class="players-num">5</span> Players 
+					<span class="players-num">2</span> Players 
 					 </h4>
 				</div>
 		</div>
