@@ -22,6 +22,7 @@
 									<tr>
 										
 										<form:select class="form-control" path="players">
+											<form:option value="1">1</form:option>
 											<form:option selected="2" value="2">2</form:option>
 											<form:option value="3">3</form:option>
 											<form:option value="4">4</form:option>

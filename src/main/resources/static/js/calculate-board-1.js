@@ -105,5 +105,54 @@ $(document).ready(function(){
     			$("#totalCategory1").val(result(redCrosses) + result(yellowCrosses)
     					+ result(greenCrosses) + result(blueCrosses) - resultMistakes(mistakesCrosses));
     		});
+    		
+    		$(".red-lock").click(function(){
+    			if ( ! $( this ).hasClass("active") ){
+    				$(".red-btn").prop('disabled', true);
+    				redCrosses++;
+    			}
+    			else {
+    				$(".red-btn").prop('disabled', false);
+    				redCrosses--;
+    			}
+    			
+    			calculateResults();
+    		});
+    		$(".yellow-lock").click(function(){
+    			if ( ! $( this ).hasClass("active") ){
+    				$(".yellow-btn").prop('disabled', true);
+    				yellowCrosses++;
+    			}
+    			else {
+    				$(".yellow-btn").prop('disabled', false);
+    				yellowCrosses--;
+    			}
+    			
+    			calculateResults();
+    		});
+    		$(".green-lock").click(function(){
+    			if ( ! $( this ).hasClass("active") ){
+    				$(".green-btn").prop('disabled', true);
+    				greenCrosses++;
+    			}
+    			else {
+    				$(".green-btn").prop('disabled', false);
+    				greenCrosses--;
+    			}
+    			
+    			calculateResults();
+    		});
+    		$(".blue-lock").click(function(){
+    			if ( ! $( this ).hasClass("active") ){
+    				$(".blue-btn").prop('disabled', true);
+    				blueCrosses++;
+    			}
+    			else {
+    				$(".blue-btn").prop('disabled', false);
+    				blueCrosses--;
+    			}
+    			
+    			calculateResults();
+    		});
 
     	});

@@ -32,26 +32,25 @@ public class ScoreController {
 	
 	@GetMapping("/score-simple")
 	public String getSimpleScoreGame(Model model) {
-		game.setGameWithCharacters(false);
 		model.addAttribute("game", game);
 		return "score-simple";
 	}
 	
 	@PostMapping("/score-simple")
 	public String submitSimpleScoreGame(@ModelAttribute("game") Game game) {	
-		logger.info("{} ", game.getPlayers());
+		game.setGameWithCharacters(false);
 		return gameGeneratorService.generateGameView(game);
 	}
 	
 	@GetMapping({"/score-character"})
 	public String getScoreGameWithChars(Model model) {
-		game.setGameWithCharacters(true);
 		model.addAttribute("game", game);
 		return "score-character";
 	}
 	
 	@PostMapping({"/score-character"})
 	public String submitScoreGameWithChars(@ModelAttribute("game") Game game) {
+		game.setGameWithCharacters(true);
 		return gameGeneratorService.generateGameView(game);
 	}
 }

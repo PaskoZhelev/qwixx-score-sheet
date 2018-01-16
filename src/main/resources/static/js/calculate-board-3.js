@@ -105,5 +105,54 @@ $(document).ready(function(){
     			$("#totalCategory3").val(result3(redCrosses3) + result3(yellowCrosses3)
     					+ result3(greenCrosses3) + result3(blueCrosses3) - resultMistakes3(mistakesCrosses3));
     		});
+    		
+    		$(".red-lock3").click(function(){
+    			if ( ! $( this ).hasClass("active") ){
+    				$(".red-btn3").prop('disabled', true);
+    				redCrosses3++;
+    			}
+    			else {
+    				$(".red-btn3").prop('disabled', false);
+    				redCrosses3--;
+    			}
+    			
+    			calculateResults3();
+    		});
+    		$(".yellow-lock3").click(function(){
+    			if ( ! $( this ).hasClass("active") ){
+    				$(".yellow-btn3").prop('disabled', true);
+    				yellowCrosses3++;
+    			}
+    			else {
+    				$(".yellow-btn3").prop('disabled', false);
+    				yellowCrosses3--;
+    			}
+    			
+    			calculateResults3();
+    		});
+    		$(".green-lock3").click(function(){
+    			if ( ! $( this ).hasClass("active") ){
+    				$(".green-btn3").prop('disabled', true);
+    				greenCrosses3++;
+    			}
+    			else {
+    				$(".green-btn3").prop('disabled', false);
+    				greenCrosses3--;
+    			}
+    			
+    			calculateResults3();
+    		});
+    		$(".blue-lock3").click(function(){
+    			if ( ! $( this ).hasClass("active") ){
+    				$(".blue-btn3").prop('disabled', true);
+    				blueCrosses3++;
+    			}
+    			else {
+    				$(".blue-btn3").prop('disabled', false);
+    				blueCrosses3--;
+    			}
+    			
+    			calculateResults3();
+    		});
 
     	});

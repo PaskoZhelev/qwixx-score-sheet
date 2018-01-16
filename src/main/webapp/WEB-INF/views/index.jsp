@@ -13,27 +13,32 @@
 			            
             <div class="card">
               <div class="card-body">
-                <p>Credibly harness multidisciplinary ideas via alternative e-commerce. Intrinsicly transition interdependent best practices before resource sucking outsourcing.</p>
-                <p>Compellingly expedite bricks-and-clicks niche markets through user-centric interfaces. Efficiently evisculate intermandated platforms after cross-media markets.</p>
-              </div>
+                 <p>Qwixx is a quick-playing dice game in which everyone participates, no matter whose turn it is. Each player has a scoresheet with the numbers 2-12 in rows of red and yellow and the numbers 12-2 in rows of green and blue.</p> 
+                 
+                 <p>To score points you want to mark off as many numbers as possible, but you can mark off a number only if it's to the right of all marked-off numbers in the same row.</p>
+				 <div class="text-center"><strong>Players</strong>: 2-5 &emsp;&emsp;<strong>Playing Time</strong>: 15 Min&emsp;&emsp;<strong>Age</strong>: 8+</div>
+				</div>
             </div>
           
 
 			<div class="row">
 				<div class="col-sm-6">
+				<a href="/score-simple">
 				<button class="btn btn-round btn-lg btn-warning">
 				  <div class="flexbox">					
 					<span class="fs-20 fw-400">Score - Simple Game</span>
 				  </div>
-				</button>
+				</button></a>
 				</div>
 				
 				<div class="col-sm-6">
+				<a href="/score-character">
 				<button class="btn btn-round btn-lg btn-danger">				
 				  <div class="flexbox">			  
 					<span class="fs-20 fw-400">Score with Characters</span>					
 				  </div>					
 				</button>
+				</a>
 				</div>
 			</div>
 			</div>

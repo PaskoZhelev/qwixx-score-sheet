@@ -11,14 +11,20 @@
 
 		<div class="col-sm-12">
 				<div class="card text-center">
-					<h4 class="card-title card-title-bold">Simple Game Score Sheet - 4 Players</h4>
+					<h4 class="card-title card-title-bold">Game With Characters Score Sheet - 
+					<span class="players-num">5</span> Players 
+					 </h4>
 				</div>
 		</div>
+		
+		<%@ include file="player-boards/character-abilities.jsp"%>
+			
+			<%@ include file="player-boards/player-character-1.jsp"%>
+			<%@ include file="player-boards/player-character-2.jsp"%>
+			<%@ include file="player-boards/player-character-3.jsp"%>
+			<%@ include file="player-boards/player-character-4.jsp"%>
 
-			<%@ include file="player-boards/player-1.jsp"%>
-			<%@ include file="player-boards/player-2.jsp"%>
-			<%@ include file="player-boards/player-3.jsp"%>
-			<%@ include file="player-boards/player-4.jsp"%>
+
 			
 
 		</div>
@@ -44,8 +50,7 @@
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/calculate-board-1.js"></script>
-	<script src="js/calculate-board-2.js"></script>
-	<script src="js/calculate-board-3.js"></script>
-	<script src="js/calculate-board-4.js"></script>
+	<script src="js/randomize-characters.js"></script>
+
 
 <%@ include file="common/footer.jsp"%>
