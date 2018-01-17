@@ -14,7 +14,7 @@
 					<h4 class="card-title card-title-bold">Simple Game Score Sheet - 2 Players</h4>
 				</div>
 		</div>
-
+			<%@ include file="player-boards/dice.jsp"%>
 			<%@ include file="player-boards/player-1.jsp"%>
 			<%@ include file="player-boards/player-2.jsp"%>
 			
