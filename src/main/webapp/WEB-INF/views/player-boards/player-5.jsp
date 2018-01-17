@@ -39,34 +39,34 @@
 						</div>
 						<div>
 						<!-- Green Category Buttons -->
-						<button class="btn btn-square btn-success green-btn5" data-toggle="button">2</button>
-						<button class="btn btn-square btn-success green-btn5" data-toggle="button">3</button>
-						<button class="btn btn-square btn-success green-btn5" data-toggle="button">4</button>
-						<button class="btn btn-square btn-success green-btn5" data-toggle="button">5</button>
-						<button class="btn btn-square btn-success green-btn5" data-toggle="button">6</button>
-						<button class="btn btn-square btn-success green-btn5" data-toggle="button">7</button>
-						<button class="btn btn-square btn-success green-btn5" data-toggle="button">8</button>
-						<button class="btn btn-square btn-success green-btn5" data-toggle="button">9</button>
-						<button class="btn btn-square btn-success green-btn5" data-toggle="button">10</button>
-						<button class="btn btn-square btn-success green-btn5" data-toggle="button">11</button>
 						<button class="btn btn-square btn-success green-btn5" data-toggle="button">12</button>
+						<button class="btn btn-square btn-success green-btn5" data-toggle="button">11</button>
+						<button class="btn btn-square btn-success green-btn5" data-toggle="button">10</button>
+						<button class="btn btn-square btn-success green-btn5" data-toggle="button">9</button>
+						<button class="btn btn-square btn-success green-btn5" data-toggle="button">8</button>
+						<button class="btn btn-square btn-success green-btn5" data-toggle="button">7</button>
+						<button class="btn btn-square btn-success green-btn5" data-toggle="button">6</button>
+						<button class="btn btn-square btn-success green-btn5" data-toggle="button">5</button>
+						<button class="btn btn-square btn-success green-btn5" data-toggle="button">4</button>
+						<button class="btn btn-square btn-success green-btn5" data-toggle="button">3</button>
+						<button class="btn btn-square btn-success green-btn5" data-toggle="button">2</button>
 						<button class="btn btn-square btn-success green-lock5" data-toggle="button"><i class="fa fa-lock"></i></button>
 						<!-- End Green Category Buttons -->
 						</div>
 						
 						<div>
 						<!-- Blue Category Buttons -->
-						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">2</button>
-						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">3</button>
-						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">4</button>
-						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">5</button>
-						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">6</button>
-						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">7</button>
-						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">8</button>
-						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">9</button>
-						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">10</button>
-						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">11</button>
 						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">12</button>
+						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">11</button>
+						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">10</button>
+						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">9</button>
+						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">8</button>
+						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">7</button>
+						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">6</button>
+						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">5</button>
+						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">4</button>
+						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">3</button>
+						<button class="btn btn-square btn-primary blue-btn5" data-toggle="button">2</button>
 						<button class="btn btn-square btn-primary blue-lock5" data-toggle="button"><i class="fa fa-lock"></i></button>
 						<!-- End Blue Category Buttons -->				
 						</div>
