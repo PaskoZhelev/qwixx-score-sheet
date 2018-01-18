@@ -14,7 +14,7 @@
 					<h4 class="card-title card-title-bold">Simple Game Score Sheet - 1 Player</h4>
 				</div>
 		</div>
-
+			<%@ include file="player-boards/dice.jsp"%>
 			<div class="col-sm-3"></div>
 			<%@ include file="player-boards/player-1.jsp"%>			
 			<div class="col-sm-3"></div>
@@ -45,6 +45,7 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/calculate-board-1.js"></script>
 	<script src="js/randomize-characters.js"></script>
+	<script src="js/rollDice.js"></script>
 
 
 <%@ include file="common/footer.jsp"%>

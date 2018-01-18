@@ -18,7 +18,7 @@
 		</div>
 		
 		<%@ include file="player-boards/character-abilities.jsp"%>
-			
+			<%@ include file="player-boards/dice.jsp"%>
 			<%@ include file="player-boards/player-character-1.jsp"%>
 			<%@ include file="player-boards/player-character-2.jsp"%>
 			
@@ -55,6 +55,7 @@
 	<script src="js/calculate-board-2.js"></script>
 	<script src="js/calculate-board-3.js"></script>
 	<script src="js/randomize-characters.js"></script>
+	<script src="js/rollDice.js"></script>
 
 
 <%@ include file="common/footer.jsp"%>

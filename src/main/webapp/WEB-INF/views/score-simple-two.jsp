@@ -43,5 +43,6 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/calculate-board-1.js"></script>
 	<script src="js/calculate-board-2.js"></script>
+	<script src="js/rollDice.js"></script>
 
 <%@ include file="common/footer.jsp"%>
