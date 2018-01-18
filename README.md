@@ -12,3 +12,4 @@ https://qwixxscoresheet.herokuapp.com/
 
 ![Screenshot](screenshot-1.PNG)
 ![Screenshot](screenshot-2.PNG)
+![Screenshot](screenshot-3.PNG)
