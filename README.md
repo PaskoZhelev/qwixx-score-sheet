@@ -1,6 +1,6 @@
-# Qwixx Score Sheet Simple Website
+# Qwixx Score Sheet Website
 
-Simple Spring website for scoring for the game Qwixx. 
+Simple Spring website for playing and scoring for the game Qwixx. 
 
 There is also a possibility to play with the expansion Characters.
 
